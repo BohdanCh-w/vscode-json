@@ -23,7 +23,8 @@
 		"lint": "eslint \"src/**/*.ts\""
 	},
 	"dependencies": {
-		"jsonc-parser": "^0.4.2"
+		"jsonc-parser": "^0.4.2",
+		"yaml": "^2.4.1"
 	},
 	"devDependencies": {
 		"@types/node": "^16.18.34",
@@ -90,7 +91,8 @@
 	},
 	"activationEvents": [
 		"onLanguage:json",
-		"onLanguage:jsonc"
+		"onLanguage:jsonc",
+		"onLanguage:yaml"
 	],
 	"contributes": {
 		"viewsContainers": {
